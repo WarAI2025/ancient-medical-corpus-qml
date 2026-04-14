@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Drive cache files
+embeddings_*.pt
+checkpoint_*.pt
+*.jsonl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Figures (shared separately via Drive)
+figures/*.png
+figures/*.jpg
